@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+body,
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.flex {
+  display: flex;
+}
+.wholePage {
+  display: flex;
+  flex-direction: column;
+  font-family: cursive;
+}
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  padding-top: 97px;
+}

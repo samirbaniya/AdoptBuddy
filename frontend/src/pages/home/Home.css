@@ -1,0 +1,181 @@
+.heading {
+  color: white;
+  background: linear-gradient(rgb(255 255 255 / 64%), rgb(50 77 171 / 25%)),
+    url(/images/petbg.jpg);
+  background-size: cover;
+  background-position: 20% 27%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 30px 25px 50px 25px;
+  height: 250px;
+  border-bottom: 5px solid transparent;
+  border-image: linear-gradient(to right, white, #7695ff) 1;
+  background-color: white;
+  text-shadow: 0 1px 10px #ffffff, 0 0 4px #4d4751, 0 0 4px #001395;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  box-shadow: 14px 14px 30px rgba(0, 0, 0, 0.19), 5px 5px 0px #f1f1ff;
+  width: 228px;
+  height: 330px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 10px 15px 10px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card:hover {
+  box-shadow: 14px 14px 30px rgba(0, 0, 0, 0.5);
+  border: 1px solid #8a8a8b;
+  cursor: pointer;
+}
+
+.pet-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  background-color: #e0eaff;
+  padding: 30px 40px 46px 135px;
+}
+
+.pet-img {
+  height: 190px;
+  width: 200px;
+}
+.pet-div {
+  border-radius: 10px;
+  background-color: #f6f9ff;
+  width: 100%;
+  height: 73%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pet-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.readmore-btn {
+  background-color: #ffebe1;
+  border: 1px solid #ababf9;
+  border-radius: 5px;
+}
+.readmore-btn:hover {
+  background-color: #ffebe1;
+}
+
+.categories-heading {
+  padding-top: 2%;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 2.3rem;
+  color: #4d4751;
+}
+.explore-heading {
+  padding-top: 100px;
+  text-align: center;
+  background-color: #e0eaff;
+  font-size: 2.3rem;
+  color: #4d4751;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  gap: 2%;
+}
+.categories-container {
+  padding: 35px 0px 100px 0px;
+}
+
+.categories-card {
+  position: relative;
+  height: 316px;
+  width: 339px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px #b1c3ff;
+  /* background-color: #7695ff; */
+}
+.categories-card:hover {
+  box-shadow: 0px 0px 1px 3px #7695ff;
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+
+.categories-img {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s;
+
+  /* object-fit: cover; */
+}
+
+.float-text {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 0px 0px 3px white, 2px 2px 15px white;
+}
+
+.home-description {
+  background-color: #f6f9ff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-adoptBuddy {
+  font-size: 1.5rem;
+}
+.home-paragraph {
+  font-size: 1.5rem;
+  /* background-color: #e6ecff; */
+  width: 69%;
+  text-align: center;
+  line-height: 35px;
+  color: #4d4751;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding: 100px 26px;
+  border-radius: 10px;
+}
+.explore-link {
+  background-color: #e0eaff;
+  padding: 0px 110px 100px 0px;
+  text-align: right;
+}
+.explore-btn {
+  background-color: #c7d3ff;
+  border: 1px solid #ababf9;
+  border-radius: 10px;
+  height: 40px;
+  font-family: cursive;
+  font-size: large;
+  padding: 0px 8px;
+}
+.explore-btn:hover {
+  background-color: #a0b6ff;
+  cursor: pointer;
+}
+
